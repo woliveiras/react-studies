@@ -1,11 +1,11 @@
 import axios from 'axios';
 
-var GithubUser = {
-	getByUsername: function(username) {
-		return axios.get('https://api.github.com/users/' + username);
+const GithubUser = {
+	getByUsername(username) {
+		return axios.get(`https://api.github.com/users/${username}`);
 	},
-	getReposByUsername: function(username) {
-		return axios.get('https://api.github.com/users/' + username + '/repos');
+	getReposByUsername(username) {
+		return axios.get(`https://api.github.com/users/${username}/repos`);
 	}
 };
 
