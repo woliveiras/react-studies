@@ -1,4 +1,4 @@
-var axios = require('axios');
+import axios from 'axios';
 
 var GithubUser = {
 	getByUsername: function(username) {
@@ -9,4 +9,4 @@ var GithubUser = {
 	}
 };
 
-module.exports = GithubUser;
+export default GithubUser;
