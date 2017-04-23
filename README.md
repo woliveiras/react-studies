@@ -5,7 +5,7 @@
 ## Apps
 
 - [GitHubInfo](https://woliveiras.com.br/react-studies/github-info/public)
-- [ReactMap](https://github.com/woliveiras/reactmap)
+- [ReactMap](https://woliveiras.com.br/reactmap/)
 
 ## How to run
 
